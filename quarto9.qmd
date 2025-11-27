@@ -1,0 +1,21 @@
+---
+title: "quarto demo"
+author: "amelia"
+format: html
+editor: visual
+---
+
+## 
+
+intro to quarto anf git
+
+```{r}
+data(mtcars)
+plot(mtcars$hp, mtcars$mpg,
+     main = "MPG vs. Horsepower",
+     xlab = "Horsepower",
+     ylab = "Miles Per Gallon",
+     pch = 16,        # Solid circles
+     col = "darkblue", # Dark blue colour
+     cex = 1.2)       # Larger points
+```
